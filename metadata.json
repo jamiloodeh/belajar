@@ -1,0 +1,6 @@
+{
+  "name": "Mizu Design",
+  "description": "Digital product marketplace for Canva templates, Lightroom presets, UI kits, and premium fonts. Includes customer shop and admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

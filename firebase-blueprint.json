@@ -1,0 +1,62 @@
+{
+  "collections": {
+    "users": {
+      "documents": {
+        "userId": {
+          "fields": {
+            "name": { "type": "string" },
+            "email": { "type": "string" },
+            "role": { "type": "string" },
+            "photo": { "type": "string" },
+            "createdAt": { "type": "timestamp" }
+          }
+        }
+      }
+    },
+    "products": {
+      "documents": {
+        "productId": {
+          "fields": {
+            "category_id": { "type": "string" },
+            "title": { "type": "string" },
+            "slug": { "type": "string" },
+            "description": { "type": "string" },
+            "thumbnail": { "type": "string" },
+            "price": { "type": "number" },
+            "discount": { "type": "number" },
+            "sales": { "type": "number" },
+            "rating": { "type": "number" },
+            "createdAt": { "type": "timestamp" }
+          }
+        }
+      }
+    },
+    "categories": {
+      "documents": {
+        "categoryId": {
+          "fields": {
+            "name": { "type": "string" },
+            "slug": { "type": "string" },
+            "icon": { "type": "string" }
+          }
+        }
+      }
+    },
+    "blogPosts": {
+      "documents": {
+        "postId": {
+          "fields": {
+            "title": { "type": "string" },
+            "slug": { "type": "string" },
+            "excerpt": { "type": "string" },
+            "content": { "type": "string" },
+            "thumbnail": { "type": "string" },
+            "author": { "type": "string" },
+            "date": { "type": "string" },
+            "createdAt": { "type": "timestamp" }
+          }
+        }
+      }
+    }
+  }
+}
